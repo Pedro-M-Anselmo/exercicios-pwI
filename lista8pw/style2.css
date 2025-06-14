@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Lexend Deca", sans-serif;
+  }
+
+body{
+    color: #fff;
+    background: linear-gradient(180deg, hsla(0, 0%, 18%, 1) 0%, hsla(0, 0%, 7%, 1) 70%);
+    
+  }
+
+.containerheader{
+    display: flex;
+    height: 7vh;
+    background-color: #121212;
+    align-items: center;
+    
+    margin-top: 0;
+    
+  }
+ 
+.logo{
+  color: #1DB954;
+  background-color: #212121;
+  height: 2.2rem;
+  width: 9rem;
+  border-radius: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4vw;
+}
+
+  
+.navbar{
+  width: 40%;
+  display: flex;    
+  align-items: center;
+  margin-left: 5rem;
+  gap: 2rem;
+  
+}
+
+.logincabeçalho{
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20vw;
+
+}
+.logincabeçalho a{
+    color: #fff;
+}
+
+.navbar a{
+    justify-content: space-between;
+    color: aliceblue;}
+
+.containercadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1saudação{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 30px;
+}
+
+.card form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(360deg, hsla(0, 0%, 12%, 1) 0%, hsla(0, 0%, 7%, 1) 70%);
+    width: 45vw;
+    border-radius: 9px;
+    margin-bottom: 10vh;
+
+}
+
+.card form .dados{
+ margin-top: 5vh;
+}
+
+.dados input{
+    width: 100%;
+  height: 3rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #535353;
+  box-sizing: border-box;
+  color: #fff;
+  background: linear-gradient(360deg, hsla(0, 0%, 5%, 1) 0%, hsla(0, 0%, 7%, 1) 70%);
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.sexo{
+    margin-bottom: 5vh;
+    margin-right: 3vw;
+}
+
+.genero{
+    margin-bottom: 5vh;
+}
+.sobre p{
+    background-color:#535353;
+    width: 30vw;
+    height: 15vh;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 20px;
+    text-align: justify;
+    margin-bottom: 1vh;
+    
+}
+
+.validar{
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.validar input[type="button"]{
+    border: none;
+    border-radius: 6px;
+    background-color: #1db954;
+    width:8rem;
+    height: 2rem;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 900;
+    
+}

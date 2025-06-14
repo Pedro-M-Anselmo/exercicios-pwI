@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header class="containerheader">
+        <section class="logocabeçalho">
+            <h1 class="logo">RhythmWeb</h1>
+        </section>
+        
+        <section class="navbar">
+            <a href="" >Novidades</a>
+            <a href="" >Contato</a>
+            <a href="" >Sobre</a>
+        </section>
+
+        <section class="logincabeçalho">
+            <a href="corpo.html" target="_blank">Home</a>
+            <a href="loginpage.html" target="_blank">Login</a>
+    </header>
+    <main class="containercadastro">
+        <section class="h1saudação">
+            <h2>Cadastrar-se</h2>
+        </section>
+        <section class="card cadastro">
+            <form>
+                <section class="dados">
+                    <label for="nome">Nome*</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome.">
+                    <br>
+                    <br>
+                    <label for="email">Email*</label><br>
+                    <input type="email" name="email" id="email" placeholder="exemplo@gmail.com...">
+                    <br>
+                    <br>
+                    <label for="senha">Senha*</label><br>
+                    <input type="password" name="senha" id="senha" placeholder="Digite uma senha.">
+                    <br>
+                    <br>
+                    <label for="nascimento"><h3>Data de nascimento</h3></label>
+                    <input type="date" name="nascimento" id="nascimento">
+                    <br>
+                    <br>
+                </section>
+
+                <section class="sexo">
+                    <h3>Gênero</h3>
+                    <input type="radio" name="genero" id="masculino" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" id="feminino" value="feminino">
+                    <label for="feminino">Feminino</label>
+                </section>
+                    <section class="genero">
+                        <h3>Gêneros musicais favoritos</h3>
+                        <br>
+                        <input type="checkbox" name="gmusicais" id="pop" value="pop">
+                        <label for="pop">POP</label>
+                        <input type="checkbox" name="gmusicais" id="sertanejo" value="sertanejo">
+                        <label for="sertanejo">Sertanejo</label>
+                        <input type="checkbox" name="gmusicais" id="pagode" value="pagode">
+                        <label for="pagode">Pagode</label>
+                        <input type="checkbox" name="gmusicais" id="funk" value="funk">
+                        <label for="funk">Funk</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="gmusicais" id="gospel" value="gospel">
+                        <label for="gospel">Gospel</label>
+                        <input type="checkbox" name="gmusicais" id="rock" value="rock">
+                        <label for="rock">Rock</label>
+                        <input type="checkbox" name="gmusicais" id="mpb" value="mpb">
+                        <label for="mpb">MPB</label>
+                        <input type="checkbox" name="gmusicais" id="hip-hop" value="hip-hop">
+                        <label for="hip-hop">Hip-Hop</label>
+                        <br>
+                        <br>
+                    </section>
+                
+                <section class="sobre">
+                    <h3>Termos e Condições</h3>
+
+                    <p>Este Site foi desenvolvido apenas para fins de estudo e prática de programação. Não possui nenhum uso comercial e não está vinculado a nenhuma empresa, marca ou serviço oficial de música. <br>
+
+                    Pedimos que não insira informações pessoais como nome completo, endereço, número de documentos, dados bancários ou qualquer dado sensível.
+                        <br>
+                        Não nos responsabilizamos por qualquer informação inserida pelos usuários, já que este projeto é apenas um protótipo educacional.</p>
+                    <input type="checkbox" name="Termos" id="termo">
+                    <label for="termo">Aceito os Termos e Codições.</label>
+                </section>
+                <section class="validar">
+                    <input type="button" value="Enviar">
+                    <input type="button" value="Cancelar">
+                </section>
+
+
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
