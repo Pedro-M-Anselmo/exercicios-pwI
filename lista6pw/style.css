@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d5dbdb;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.cards{
+        background-color:#F0F8FF;
+        border-radius: 8px;
+        margin-left: 15px;
+        width: 220px;
+        height: 300px;
+        padding: 5px;
+}
+
+.cards h3{
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 800;
+   
+}
+
+.cards span{
+    font-family:'cursive';
+    color: #696969;
+    font-weight: 500;
+    font-size: 15px; 
+      
+}
+
+.cards.card1 button{
+    border-radius: 15px;
+    background: linear-gradient(150deg, #60696b,#17202a);
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 80%;
+    font-weight: 600;
+}
+
+.cards.card2 button{
+    border-radius: 15px;
+    background: linear-gradient(150deg, #ff1b6b,#45caff);
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 80%;
+    font-weight: 600;
+}
+
+.cards.card3 button{
+    border-radius: 15px;
+    background: linear-gradient(150deg, #51c26f,#099773);
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 80%;
+    font-weight: 600;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
